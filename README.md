@@ -1,3 +1,4 @@
+
 # Music Studio - AI-Powered Music Generation
 
 Generate music across 5 genres (Classical, Jazz, Blues, Pop, Electronic) using:
@@ -311,3 +312,6 @@ Refresh your repo page on GitHub - you should see all the files.
 ## License
 
 MIT - feel free to use, modify, and distribute.
+# CodeAlpha-Task-3-Music-Generation-With-AI
+AI-powered music generation system that creates unique, high-quality audio tracks based on user prompts, emotions, and style preferences. It enables automatic composition, mixing, and sound design using advanced machine learning models. 🎵
+
