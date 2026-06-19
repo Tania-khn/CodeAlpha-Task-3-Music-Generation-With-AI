@@ -1,0 +1,126 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Next.js
+.next/
+out/
+build/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+bun-debug.log*
+
+# Environment variables
+.env*
+!.env.example
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+*.log
+dev.log
+server.log
+logs/
+ai-service.log
+frontend.log
+daemon.log
+daemon.out
+
+# Database
+db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Python AI Service - Data files (large/regenerable)
+mini-services/music-ai-service/data/midi/
+mini-services/music-ai-service/data/generated/
+mini-services/music-ai-service/data/processed/
+mini-services/music-ai-service/data/models/
+mini-services/music-ai-service/data/samples/
+
+# Keep the data subdirectories themselves (with .gitkeep)
+!mini-services/music-ai-service/data/**/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local config
+local-*
+.claude
+.z-ai-config
+
+# Skills (private)
+/skills/
+
+# Bun
+bun.lockb
+
+# Build artifacts
+*.tsbuildinfo
+
+# Lockfiles - keep package-lock.json but ignore bun.lock
+bun.lock
+
+# Temp / cache
+.cache/
+.tmp/
+tmp/
+
+# Test coverage
+coverage/
+
+# Misc project files
+upload/
+examples/
+.zscripts/
+dev.log
+3000
+Caddyfile
+keep-alive.sh
+daemon.sh
+run.sh
+start-services.sh
+start-studio.sh
+worklog.md
